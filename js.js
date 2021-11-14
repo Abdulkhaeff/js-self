@@ -71,3 +71,10 @@
 //   }
 
 
+// Function for Method ceil
+
+// function ceil(a) {
+//     return (a + 0.5).toFixed(0);
+// }
+// console.log(ceil(1.001));
+
