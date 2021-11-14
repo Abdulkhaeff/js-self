@@ -46,3 +46,28 @@
 // var a =33
 // var b =22
 // console.log(a+ b + ((parseIntMath.random(100) * 100+(parseFloat('3.456456')))))
+
+// <p id="demo"></p>
+
+// try {
+//   adddlert("Welcome guest!");
+// }
+// catch(err) {
+//   document.getElementById("demo").innerHTML = err.message;
+// }
+// function myFunction() {
+//     const message = document.getElementById("p01");
+//     message.innerHTML = "";
+//     let x = document.getElementById("demo").value;
+//     try {
+//       if(x == "") throw "empty";
+//       if(isNaN(x)) throw "not a number";
+//       x = Number(x);
+//       if(x < 5) throw "too low";
+//       if(x > 10) throw "too high";
+
+// function isArray(myArray) {
+//     return myArray.constructor === Array;
+//   }
+
+
