@@ -78,3 +78,69 @@
 // }
 // console.log(ceil(1.001));
 
+
+// var f = function() {
+
+//   console.log(1);
+
+// }
+// var execute = function(f) {
+
+//     setTimeout(f, 1000);
+  
+//   }
+  
+//   execute(f);
+  
+//   f = function() {
+  
+//     console.log(2);
+  
+//   }
+// console.log(null || 1 || undefined) // 1
+
+// function logName(name) {
+//     let n = name || Mark
+//     console.log(n)
+// }
+// function giveMeX(showX){
+//     if(showX){
+//         var x = 5
+//     }
+//     return x
+// }
+
+// console.log(giveMeX(false))
+// console.log(giveMeX(true))
+
+
+// function giveMeX(showX){
+//     if(showX){
+//         let x = 5
+//     }
+//     return x
+// }
+
+// function giveMeY(showY){
+//     if(showY){
+//         let y = 5
+//     }
+//     return y
+// }
+// console.log(giveMeX());
+// console.log(!![].length)
+
+
+
+// console.log(y)
+// y = 1
+// console.log(y)
+// console.log(greet('Mark'))
+
+// function greet(name) {
+//     return 'Hello ' + name + '!'
+// }
+
+// var y;
+
+
