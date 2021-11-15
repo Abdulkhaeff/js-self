@@ -143,5 +143,5 @@
 
 // var y;
 
-document.form[0].submit();
-document.form[0].submit();
+// document.form[0].submit();
+// document.form[0].submit();
