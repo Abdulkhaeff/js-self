@@ -145,3 +145,12 @@
 
 // document.form[0].submit();
 // document.form[0].submit();
+
+
+hoistedFunction();  
+
+function hoistedFunction(){ 
+  console.log(" Hello world! ");
+}
+
+
