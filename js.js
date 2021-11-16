@@ -147,10 +147,16 @@
 // document.form[0].submit();
 
 
-hoistedFunction();  
+// hoistedFunction();  
 
-function hoistedFunction(){ 
-  console.log(" Hello world! ");
-}
+// function hoistedFunction(){ 
+//   console.log(" Hello world! ");
+// }
 
+
+var obj = { name: "Vivek", surname: "Bisht" };
+
+var obj2 = obj;
+
+console.log(obj2);
 
