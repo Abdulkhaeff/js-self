@@ -154,9 +154,12 @@
 // }
 
 
-var obj = { name: "Vivek", surname: "Bisht" };
+// var obj = { name: "Vivek", surname: "Bisht" };
 
-var obj2 = obj;
+// var obj2 = obj;
 
-console.log(obj2);
+// console.log(obj2);
+
+
+
 
