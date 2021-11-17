@@ -261,7 +261,33 @@
 // }
 // javob nima chiqadi?      il chiqadi
 //         (18)
+// function giveMeX(showX){
+//     if(showX){
+//         var x = 5
+//     }
+//     return x
+// }
 
+// console.log(giveMeX(false))
+// console.log(giveMeX(true))
+// javob nima ciqadi 
+//          (19)
+// console.log(!![].length)
+// javob nima ciqadi
+//         (20)
+// console.log(y)
+// y = 1
+// console.log(y)
+// console.log(greet('Mark'))
+
+// function greet(name) {
+//     return 'Hello ' + name + '!'
+// }
+
+// var y
+
+
+// javob nima ciqadi?
 
 
 
