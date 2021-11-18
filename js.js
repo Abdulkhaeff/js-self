@@ -291,12 +291,16 @@
 
 
 
-const elbek = 22;
-let abdulkhaev = 1999;
-let string = (elbek,abdulkhaev).toString();
-console.log(string);
+// const elbek = 22;
+// let abdulkhaev = 1999;
+// let string = (elbek,abdulkhaev).toString();
+// console.log(string);
 
 
+const array;
+ array.map(value,index)=> {
+     console.log(value,index);
+}
 
 
 
