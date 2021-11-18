@@ -291,3 +291,12 @@
 
 
 
+const elbek = 22;
+let abdulkhaev = 1999;
+let string = (elbek,abdulkhaev).toString();
+console.log(string);
+
+
+
+
+
