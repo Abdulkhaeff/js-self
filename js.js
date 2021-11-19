@@ -307,11 +307,14 @@
 // var a = salomqales
 // for (let index = a; index < a.length; index++) {
 //     const element = a[index];
+// }
 
 
-
-    
-}
-
-
+function degToRad(degrees) {
+    return degrees * (Math.PI / 180);
+  };
+  
+  function radToDeg(rad) {
+    return rad / (Math.PI / 180);
+  };
 
