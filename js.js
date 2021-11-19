@@ -310,11 +310,25 @@
 // }
 
 
-function degToRad(degrees) {
-    return degrees * (Math.PI / 180);
-  };
+// function degToRad(degrees) {
+//     return degrees * (Math.PI / 180);
+//   };
   
-  function radToDeg(rad) {
-    return rad / (Math.PI / 180);
-  };
+//   function radToDeg(rad) {
+//     return rad / (Math.PI / 180);
+//   };
 
+
+
+
+
+
+function obj (num1 = 0, num2=0){
+    console.log(num1+num2);
+    return (num3 = num1, num2) => {
+        console.log(num3);
+    }
+}
+
+obj(1,2)
+obj(1)(2)
