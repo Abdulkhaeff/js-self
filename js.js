@@ -304,9 +304,12 @@
 
 
 
-var a = salomqales
-for (let index = a; index < a.length; index++) {
-    const element = a[index];
+// var a = salomqales
+// for (let index = a; index < a.length; index++) {
+//     const element = a[index];
+
+
+
     
 }
 
