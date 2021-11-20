@@ -323,28 +323,32 @@
 
 
 
-// function obj (num1 = 0, num2=0){
-//     console.log(num1+num2);
-//     return (num3=0) => {
-//         console.log(num3);
+// // function obj (num1 = 0, num2=0){
+// //     console.log(num1+num2);
+// //     return (num3=0) => {
+// //         console.log(num3);
+// //     }
+// // }
+
+// // obj(1,2)
+// // obj(1)(2)
+
+
+
+
+// const obj1 ={
+//     a: 1,
+//     b: 2,
+//     getA(){
+             
+//         console.log(this.a);
+//     },
+//     getB(){
+
+//         console.log(this.b);
 //     }
-// }
-
-// obj(1,2)
-// obj(1)(2)
+// };
+// obj1.getA().getB();
 
 
-
-
-const obj1 ={
-    a: 1,
-    b: 2,
-    getA(){
-        console.log(this.a);
-    },
-    getB(){
-        console.log(this.b);
-    }
-}
-obj1.getA().getB();
 
