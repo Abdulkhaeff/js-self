@@ -376,4 +376,11 @@
 // console.log(o,a);
 
 
-
+ar = [12, 10, 11, 'apple'];
+filtered = ar.filter((value) => value != 'apple');
+counter = 0;
+filtered.map((value) => {
+    return counter += value
+}
+)
+console.log(counter);
