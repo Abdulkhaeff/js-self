@@ -357,3 +357,7 @@
 // console.log(test(2));
 
 
+
+const raqamlar = [7,2,5];
+const string = raqamlar.split('')
+console.log(string);
