@@ -364,12 +364,13 @@
 
 
 
-var fruits = ['olma','anor','nok','behi','banan'];
-var fruits2= fruits.join();
-console.log(fruits2);
 var o = 0;
 var a = 0;
+var fruits = ['Olma','anor','nok','behi','bAnan'];
+var fruits2= fruits.join('');
+// console.log(fruits2);
 for (let i= 0; i < fruits2.length; i++) {
-    
+   ( fruits2[i]==='o'||fruits2[i]=== 'O' )&& o++
+   (fruits2[i]==='a'||fruits2[i]==='A')&& a++
 }
-// console.log(fruits2[i]);
+console.log(o,a);
