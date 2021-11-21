@@ -358,6 +358,18 @@
 
 
 
-const raqamlar = [7,2,5];
-const string = raqamlar.split('')
-console.log(string);
+// const raqamlar = [7,2,5];
+// const string = raqamlar.split('')
+// console.log(string);
+
+
+
+var fruits = ['olma','anor','nok','behi','banan'];
+var fruits2= fruits.join();
+console.log(fruits2);
+var o = 0;
+var a = 0;
+for (let i= 0; i < fruits2.length; i++) {
+    
+}
+// console.log(fruits2[i]);
