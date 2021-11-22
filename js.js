@@ -376,11 +376,60 @@
 // console.log(o,a);
 
 
-ar = [12, 10, 11, 'apple'];
-filtered = ar.filter((value) => value != 'apple');
-counter = 0;
-filtered.map((value) => {
-    return counter += value
+// ar = [12, 10, 11, 'apple'];
+// filtered = ar.filter((value) => value != 'apple');
+// counter = 0;
+// filtered.map((value) => {
+//     return counter += value
+// }
+// )
+// console.log(counter);
+
+
+// arr = [1,23,4,12,34,5,65,655]
+// ar= arr.filter((value)=>value !==4)
+// console.log(ar);
+
+
+
+// ar = [2,5,7,234,2,5,56];
+// let arr = [];
+// ar.map((value)=>arr.unshift(value))
+// console.log(arr);
+
+
+
+
+
+
+
+
+
+
+
+// ar = [23,4,5,2,3,5,6,43]
+// arr = []
+// ar.map((value)=>arr.unshift(value))
+// console.log(arr);
+
+
+// ar = ['@@','@@','@@','@@']
+// // arr=ar.join()
+// // console.log(arr.every((value)=>value === value));
+// console.log( ar.every((value)=>value!==value))
+
+
+
+let karra = (a) =>{
+    return (b)=>{
+        console.log(`${a}x${b}=${a*b}`);
+    }
+
 }
-)
-console.log(counter);
+for (let i =0;i<10;i++){
+    for(let j =0;j<10;j++){
+        karra(i)(j)
+    }
+    console.log("=============");}
+
+
